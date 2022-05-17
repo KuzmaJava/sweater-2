@@ -36,7 +36,7 @@ public class RegistrationController {
     public String registration() {
         return "registration";
     }
-
+//        --
     @PostMapping("/registration")
     public String addUser(
             @RequestParam("password2") String passwordConfirm,
